@@ -8,8 +8,8 @@ int main()
     printf("Enter two integers: ");
     scanf("%d %d", &n1, &n2);
 
-    sum = findSum(num1, num2);
-    printf("The sum of %d and %d is: %d\n", num1, num2, sum);
+    sum = findSum(n1, n2);
+    printf("The sum of %d and %d is: %d\n", n1, n2, sum);
     return 0;
 }
 
